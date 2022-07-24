@@ -1,0 +1,79 @@
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    height: 100%;
+    margin: 0
+}
+.picture{
+    box-sizing: border-box;
+    flex-shrink: 0;
+    padding-top: 20%;
+    height: 100%;
+    width: 40%;
+    background: url(https://vjoy.cc/wp-content/uploads/2019/10/background-iphone-phone-wallpaper-favim.com-3510622.jpg);
+}
+.top{
+width: 100%;
+background-color: rgba(128, 128, 128,0.7);
+font-size: 70px;
+font-weight: bolder;
+color: aliceblue;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content{
+    flex-grow: 1;
+    background-color: #e0e0e0;
+    padding-left: 50px;
+    padding-top: 7%;
+}
+.zag{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.anketa{
+    margin-left: -50px;
+    margin-top: 13%;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.textank{
+    text-align: center;
+}
+.pole{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px 150px;
+    padding: 50px;
+    
+}
+label{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.button{
+    padding:10px 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 5%;
+    background-color: rgb(7, 233, 7);
+}
+.url{
+    margin-top: 5%;
+}
+.wild{
+    color:rgb(7, 233, 7);
+}
+.durak{
+    color: red;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+}
