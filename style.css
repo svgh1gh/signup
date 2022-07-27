@@ -11,7 +11,7 @@ body{
     flex-shrink: 0;
     padding-top: 20%;
     height: 100%;
-    width: 40%;
+    width: 30%;
     background: url(https://vjoy.cc/wp-content/uploads/2019/10/background-iphone-phone-wallpaper-favim.com-3510622.jpg);
 }
 .top{
@@ -66,7 +66,7 @@ label{
     background-color: rgb(7, 233, 7);
 }
 .url{
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .wild{
     color:rgb(7, 233, 7);
